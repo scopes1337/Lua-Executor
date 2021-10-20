@@ -9,11 +9,11 @@
 
 lua_State* state = luaL_newstate();
 int main() {
-    luaL_dofile(state, "C:\\Users\\reven\\AppData\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\MessagePack.lua");
-    luaL_dofile(state, "C:\\Users\\reven\\AppData\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\graph.lua");
-    luaL_dofile(state, "C:\\Users\\reven\\AppData\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\deferred.lua");
-    luaL_dofile(state, "C:\\Users\\reven\\AppData\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\natives_21E43A33.lua");
-    luaL_dofile(state, "C:\\Users\\reven\\AppData\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\scheduler.lua");
+    luaL_dofile(state, "%appdata%\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\MessagePack.lua");
+    luaL_dofile(state, "%appdata%\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\graph.lua");
+    luaL_dofile(state, "%appdata%\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\deferred.lua");
+    luaL_dofile(state, "%appdata%\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\natives_21E43A33.lua");
+    luaL_dofile(state, "%appdata%\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\scheduler.lua");
     Sleep(1); //Nig nog Bozo Bit
     luaL_dofile(state, "C://bozobit.lua");
 }
